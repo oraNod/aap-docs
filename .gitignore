@@ -1,0 +1,5 @@
+.DS_Store
+output/*.html
+output/*.htm
+output/*.pdf
+final.html

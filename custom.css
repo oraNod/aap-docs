@@ -1,0 +1,12 @@
+@import url('css/bootstrap-combined.min.css');
+@import url('css/site.css');
+@import url('css/syntax.css');
+
+.markdown-body {
+  font-size: 16px;
+}
+
+.minibutton a:hover {
+  background: #fff;
+  text-shadow: none;
+}
