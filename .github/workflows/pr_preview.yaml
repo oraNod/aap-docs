@@ -2,11 +2,14 @@
 name: Build HTML preview for PR
 
 on:
-  pull_request:
-    types:
-      - opened
+  push:
     branches:
-      - aap-clouds-latest
+      - 'previews'
+  #pull_request:
+    #types:
+      #- opened
+    #branches:
+      #- aap-clouds-latest
 
 jobs:
   preview:
