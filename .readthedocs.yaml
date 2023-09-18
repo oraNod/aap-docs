@@ -17,5 +17,4 @@ build:
     - npm i -g asciidoctor
     - sh generate-preview.sh
     - asciidoctor index.asciidoc
-    - cat index.asciidoc
     - mkdir -pv _readthedocs/html && mv index.html _readthedocs/html
